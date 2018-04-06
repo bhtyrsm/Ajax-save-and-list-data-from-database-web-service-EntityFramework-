@@ -15,7 +15,7 @@ namespace jqueryDatatable
         public UsersContext()
         {
             Database.SetInitializer<UsersContext>(new CreateDatabaseIfNotExists<UsersContext>());
-            Database.Connection.ConnectionString = @"Server=BAHTIYARSIME\SQLEXPRESS;Database=UsersContext;Trusted_Connection=True;";
+            Database.Connection.ConnectionString = @"Server=localhost;Database=UsersContext;Trusted_Connection=True;";
 
         }
     }
